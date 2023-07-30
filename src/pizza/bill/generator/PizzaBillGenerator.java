@@ -29,7 +29,7 @@ public class PizzaBillGenerator {
         
         boolean isVeg;
         
-        if(pizzatype == "Veg") 
+        if(pizzatype.equals("Veg")) 
             isVeg = true;
         else
             isVeg = false;
